@@ -7,20 +7,20 @@
     tools:context=".Editar_perfil">
 
     <ImageButton
-        android:id="@+id/hobbieSalvar"
+        android:id="@+id/hobbieSalvar_editar_perfil"
         android:layout_width="45dp"
         android:layout_height="46dp"
         android:background="@android:color/transparent"
-        app:layout_constraintBottom_toBottomOf="@+id/hobbieEP"
+        app:layout_constraintBottom_toBottomOf="@+id/hobbie_editar_perfil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/hobbieEP"
-        app:layout_constraintTop_toTopOf="@+id/hobbieEP"
+        app:layout_constraintStart_toEndOf="@+id/hobbie_editar_perfil"
+        app:layout_constraintTop_toTopOf="@+id/hobbie_editar_perfil"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
 
     <Button
-        android:id="@+id/salvarEP"
+        android:id="@+id/salvar_editar_perfil"
         android:layout_width="272dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/hobbieEP"
+        android:id="@+id/hobbie_editar_perfil"
         android:layout_width="272dp"
         android:layout_height="46dp"
         android:layout_marginStart="68dp"
@@ -52,11 +52,11 @@
         android:textColorHint="#090505"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descricaoEP"
+        app:layout_constraintTop_toBottomOf="@+id/descricao_editar_perfil"
         tools:text="Hobbies (MAX 6)" />
 
     <EditText
-        android:id="@+id/descricaoEP"
+        android:id="@+id/descricao_editar_perfil"
         android:layout_width="272dp"
         android:layout_height="90dp"
         android:background="#FFFFFF"
@@ -66,13 +66,13 @@
         android:textColorHint="#090505"
         android:textSize="15sp"
         android:fontFamily="@font/changa"
-        app:layout_constraintEnd_toEndOf="@+id/nomeEP"
-        app:layout_constraintStart_toStartOf="@+id/nomeEP"
-        app:layout_constraintTop_toBottomOf="@+id/nomeEP"
+        app:layout_constraintEnd_toEndOf="@+id/nome_editar_perfil"
+        app:layout_constraintStart_toStartOf="@+id/nome_editar_perfil"
+        app:layout_constraintTop_toBottomOf="@+id/nome_editar_perfil"
         tools:text="Descrição" />
 
     <EditText
-        android:id="@+id/nomeEP"
+        android:id="@+id/nome_editar_perfil"
         android:layout_width="272dp"
         android:layout_height="45dp"
         android:layout_marginTop="64dp"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewEP"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_editar_perfil"
         tools:text="Nome de Usuário" />
 
     <TextView
@@ -100,7 +100,7 @@
         android:fontFamily="@font/changa_light"
         android:text="Hobbie 1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hobbieEP" />
+        app:layout_constraintTop_toBottomOf="@+id/hobbie_editar_perfil" />
 
     <TextView
         android:id="@+id/hobbie2E"
@@ -163,7 +163,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageViewEP"
+        android:id="@+id/imageView_editar_perfil"
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_marginTop="60dp"

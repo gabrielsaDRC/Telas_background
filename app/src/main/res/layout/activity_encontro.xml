@@ -7,7 +7,7 @@
     tools:context=".Encontro">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView_encontro"
         android:layout_width="412dp"
         android:layout_height="343dp"
         android:layout_marginTop="76dp"
@@ -18,21 +18,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewE_encontro"
         android:layout_width="69dp"
         android:layout_height="22dp"
         android:layout_marginEnd="208dp"
         android:layout_marginRight="208dp"
         android:text="Encontro"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintBottom_toBottomOf="@+id/sair_encontro"
+        app:layout_constraintEnd_toStartOf="@+id/sair_encontro"
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/sair_encontro"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tituloE"
+        android:id="@+id/titulo_encontro"
         android:layout_width="330dp"
         android:layout_height="65dp"
         android:layout_marginTop="56dp"
@@ -42,10 +42,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_encontro" />
 
     <TextView
-        android:id="@+id/dataE"
+        android:id="@+id/data_encontro"
         android:layout_width="276dp"
         android:layout_height="35dp"
         android:fontFamily="@font/changa_light"
@@ -56,10 +56,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.303"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tituloE" />
+        app:layout_constraintTop_toBottomOf="@+id/titulo_encontro" />
 
     <TextView
-        android:id="@+id/descricaoE"
+        android:id="@+id/descricao_encontro"
         android:layout_width="286dp"
         android:layout_height="47dp"
         android:fontFamily="@font/changa_light"
@@ -70,10 +70,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.328"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dataE" />
+        app:layout_constraintTop_toBottomOf="@+id/data_encontro" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/chatButton_encontro"
         android:layout_width="260dp"
         android:layout_height="46dp"
         android:layout_marginTop="4dp"
@@ -82,10 +82,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descricaoE" />
+        app:layout_constraintTop_toBottomOf="@+id/descricao_encontro" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/sair_encontro"
         android:layout_width="58dp"
         android:layout_height="23dp"
         android:layout_marginTop="16dp"
@@ -97,10 +97,10 @@
         android:textColor="#FFFFFF"
         android:textSize="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_encontro" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButtonH_encontro"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
@@ -108,11 +108,11 @@
         android:layout_marginBottom="4dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/localE"
+        app:layout_constraintStart_toEndOf="@+id/local_encontro"
         app:srcCompat="@drawable/ic_access_time_black_24dp" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButtonLoc_encontro"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="28dp"
@@ -124,19 +124,19 @@
         app:srcCompat="@drawable/ic_location_on_black_24dp" />
 
     <TextView
-        android:id="@+id/localE"
+        android:id="@+id/local_encontro"
         android:layout_width="135dp"
         android:layout_height="44dp"
         android:layout_marginBottom="4dp"
         android:text="Local"
         android:textColor="#8A50C9"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonLoc_encontro"
+        app:layout_constraintTop_toBottomOf="@+id/chatButton_encontro"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/horarioE"
+        android:id="@+id/horario_encontro"
         android:layout_width="135dp"
         android:layout_height="44dp"
         android:layout_marginBottom="4dp"
@@ -145,34 +145,34 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonH_encontro"
+        app:layout_constraintTop_toBottomOf="@+id/chatButton_encontro"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton5_encontro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        app:layout_constraintBottom_toTopOf="@+id/descricaoE"
+        app:layout_constraintBottom_toTopOf="@+id/descricao_encontro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/dataE"
-        app:layout_constraintTop_toBottomOf="@+id/tituloE"
+        app:layout_constraintStart_toEndOf="@+id/data_encontro"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_encontro"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/imageButton6_encontro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:scaleX="-1"
-        app:layout_constraintBottom_toBottomOf="@+id/dataE"
-        app:layout_constraintEnd_toStartOf="@+id/dataE"
+        app:layout_constraintBottom_toBottomOf="@+id/data_encontro"
+        app:layout_constraintEnd_toStartOf="@+id/data_encontro"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tituloE"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_encontro"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
 
