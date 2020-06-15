@@ -6,18 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".Perfil">
 
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerP"
+        android:id="@+id/recycler_perfil"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/socializarButton"
+        android:id="@+id/socializar_perfil"
         android:layout_width="255dp"
         android:layout_height="33dp"
         android:layout_marginBottom="16dp"
@@ -26,7 +28,7 @@
         android:text="Socializar"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="@+id/recyclerP"
+        app:layout_constraintBottom_toBottomOf="@+id/recycler_perfil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
